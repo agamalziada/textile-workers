@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>ما تستهدفه خطة تطوير القابضة للغزل والنسيج</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--txe:-100%;--blue:#378ADD;--coral:#D85A30;--teal:#1D9E75;--amber:#BA7517;--gray:#888780;--bg:#fff;--fg:#2c2c2a;--muted:#5f5e5a;--soft:#f1efe8;--line:#e3e1d9;--track:#efede6;--coral-t:#faece7;--coral-d:#993C1D;--teal-t:#e3f3ec;--teal-d:#0F6E50;--amber-t:#fbf0de;--amber-d:#7A4C0D;--blue-t:#e6f0fb;--blue-d:#1F5F9E;--tx:-50%;}
+html[dir=rtl]{--tx:50%;--txe:100%;}
+@media(prefers-color-scheme:dark){:root{--blue:#85B7EB;--coral:#F0997B;--teal:#5DCAA5;--amber:#FAC775;--gray:#a3a198;--bg:#1a1a18;--fg:#d3d1c7;--muted:#b4b2a9;--soft:#2c2c2a;--line:#3a3a37;--track:#2c2c2a;--coral-t:#3a2620;--coral-d:#F5B9A3;--teal-t:#1b3029;--teal-d:#8FDCC0;--amber-t:#382d1c;--amber-d:#FAD9A0;--blue-t:#1d2939;--blue-d:#A9CCF2;}}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:"Tajawal",sans-serif;background:var(--bg);color:var(--fg);-webkit-font-smoothing:antialiased;}
+#root{padding:clamp(12px,3vw,20px);}
+.hdr{border-inline-start:3px solid #BA7517;padding-inline-start:10px;margin-bottom:10px;}
+.tag{font-size:clamp(9px,2vw,10px);font-weight:700;letter-spacing:.06em;color:var(--gray);margin-bottom:2px;}
+.ttl{font-size:clamp(13px,3.5vw,15px);font-weight:700;line-height:1.4;margin-bottom:2px;}
+.sub{font-size:clamp(11px,2.5vw,12px);color:var(--muted);line-height:1.5;}
+.callout{background:var(--soft);border-inline-start:3px solid #BA7517;padding:8px 11px;font-size:clamp(11px,2.5vw,12px);color:var(--muted);line-height:1.6;margin:9px 0 12px;font-style:italic;}
+.src{font-size:clamp(9px,2vw,10px);color:var(--gray);margin-top:10px;line-height:1.5;}
+.ins{border-inline-start:3px solid var(--coral);background:var(--coral-t);color:var(--coral-d);padding:9px 12px;border-radius:6px;font-size:clamp(10.5px,2.5vw,11.5px);line-height:1.65;margin-top:12px;font-weight:500;}
+.ins.amber{border-color:var(--amber);background:var(--amber-t);color:var(--amber-d);}
+.ins.teal{border-color:var(--teal);background:var(--teal-t);color:var(--teal-d);}
+.ins.blue{border-color:var(--blue);background:var(--blue-t);color:var(--blue-d);}
+.bi{display:flex;align-items:center;gap:12px;}
+.bi b{flex:0 0 auto;font-size:clamp(22px,6vw,28px);font-weight:800;line-height:1;}
+.bi span{flex:1;}
+.note{font-size:clamp(9.5px,2.2vw,10.5px);color:var(--muted);line-height:1.6;margin-top:9px;}
+.warn{font-size:clamp(10px,2.4vw,11px);font-weight:700;color:var(--coral);margin-top:7px;line-height:1.5;}
+.sec{font-size:clamp(10.5px,2.6vw,11.5px);font-weight:700;margin:4px 0 9px;display:flex;align-items:center;gap:6px;}
+.sec:before{content:"";flex:0 0 auto;width:8px;height:8px;border-radius:2px;background:#BA7517;}
+.gap{height:14px;}
+.lg{display:flex;flex-wrap:wrap;gap:5px 14px;font-size:clamp(9.5px,2.2vw,10.5px);color:var(--muted);margin-top:6px;}
+.lg span{display:inline-flex;align-items:center;gap:5px;}
+.sw{width:12px;height:8px;border-radius:2px;display:inline-block;flex:0 0 auto;}
+.hatch{background-image:repeating-linear-gradient(135deg,rgba(255,255,255,.5) 0 2px,transparent 2px 5px);}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block;}
+.hb-row{margin-bottom:clamp(7px,1.8vw,9px);}
+.hb-lab{display:flex;flex-wrap:wrap;align-items:baseline;gap:1px 7px;margin-bottom:3px;line-height:1.35;}
+.hb-n{font-weight:700;font-size:clamp(10.5px,2.6vw,12px);}
+.hb-s{font-size:clamp(9px,2.2vw,10px);color:var(--muted);}
+.badge{font-size:clamp(8.5px,2vw,9.5px);font-weight:700;color:var(--bg);background:var(--coral);border-radius:3px;padding:1px 5px;}
+.hb-track{position:relative;flex:1;height:clamp(10px,2.4vw,12px);background:var(--track);border-radius:3px;overflow:hidden;}
+.hb-f{position:absolute;top:0;bottom:0;width:0;border-radius:3px;transition:width 1s cubic-bezier(.2,.7,.2,1);}
+.rb-row{margin-bottom:clamp(9px,2.2vw,11px);}
+.rb-top{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;margin-bottom:4px;}
+.rb-l{display:flex;flex-direction:column;gap:1px;line-height:1.35;min-width:0;}
+.rb-v{flex:0 0 auto;font-weight:800;font-size:clamp(11px,2.8vw,12.5px);text-align:end;line-height:1.3;}
+.rb-u{display:block;font-weight:500;font-size:clamp(9px,2.1vw,10px);color:var(--muted);}
+.rb-t{height:clamp(11px,2.6vw,13px);overflow:visible;}
+.rb-t .hb-f{overflow:hidden;}
+.rb-wrap{position:relative;}
+.ref{position:absolute;top:-4px;bottom:-4px;width:0;border-inline-start:2px dashed var(--teal);z-index:2;pointer-events:none;}
+.ax{position:relative;height:16px;margin-top:2px;border-top:1px solid var(--line);}
+.ax span{position:absolute;top:3px;font-size:clamp(8.5px,2vw,9.5px);color:var(--muted);white-space:nowrap;transform:translateX(var(--tx));}
+.ax span.f{transform:none;}
+.ax span.l{transform:translateX(var(--txe));}
+.tbl{width:100%;border-collapse:collapse;font-size:clamp(10px,2.5vw,12px);}
+.tbl th{padding:8px 7px;font-weight:700;border-bottom:2px solid var(--line);text-align:center;vertical-align:bottom;}
+.tbl th:first-child,.tbl td:first-child{text-align:start;}
+.tbl td{padding:9px 7px;border-bottom:1px solid var(--line);text-align:center;vertical-align:middle;line-height:1.45;}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl td b{font-size:clamp(12px,3vw,14px);font-weight:800;}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;}
+.tile{border-radius:8px;padding:clamp(9px,2.5vw,12px);background:var(--soft);}
+.tile .big{font-size:clamp(20px,5.5vw,26px);font-weight:800;line-height:1.1;}
+.tile .lb{font-size:clamp(10px,2.4vw,11px);margin-top:4px;line-height:1.45;}
+.tile .sm{font-size:clamp(9px,2.1vw,10px);color:var(--muted);margin-top:4px;line-height:1.4;}
+.pop{opacity:0;transition:opacity .5s ease;}
+
+.hero{border-radius:8px;background:var(--amber-t);padding:clamp(12px,3vw,16px);margin-bottom:8px;display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;}
+.hero b{font-size:clamp(30px,8vw,40px);font-weight:800;color:var(--amber);line-height:1;}
+.hero > span{font-size:clamp(11px,2.7vw,12.5px);font-weight:700;}
+.hero small{flex-basis:100%;font-size:clamp(9.5px,2.2vw,10.5px);color:var(--muted);}
+</style>
+</head>
+<body><div id="root">
+  <div class="hdr"><p class="tag">زاوية ثالثة · إنفوجرافيك ⑥ من ⑧</p><p class="ttl">ما تستهدفه خطة تطوير القابضة للغزل والنسيج</p><p class="sub">الاستثمارات والإنتاج السنوي المستهدف في خطة التطوير</p></div>
+  <div class="callout">"استثمارات تبلغ نحو 66 مليار جنيه... وتستهدف إنتاج 188 ألف طن من الغزل و198 مليون متر من النسيج و50 مليون قطعة ملابس سنويًا"</div>
+  <div class="hero"><b><span dir="ltr" class="ltr">~66</span></b><span>مليار جنيه استثمارات</span><small>حجم الاستثمارات في خطة التطوير</small></div><p class="sec" style="margin-top:12px">المستهدف من الإنتاج</p><div class="g3"><div class="tile"><div class="big" style="color:var(--blue)" data-n="188">188</div><div class="lb"><b>ألف طن</b></div><div class="sm">غزل سنويًا</div></div><div class="tile"><div class="big" style="color:var(--blue)" data-n="198">198</div><div class="lb"><b>مليون متر</b></div><div class="sm">نسيج سنويًا</div></div><div class="tile"><div class="big" style="color:var(--blue)" data-n="50">50</div><div class="lb"><b>مليون قطعة</b></div><div class="sm">ملابس سنويًا</div></div></div><div class="ins amber">خطة بـ66 مليار جنيه تستهدف الإنتاج، بينما تغيب أجور العمال عن أرقامها.</div>
+  <p class="src">المصدر: الشركة القابضة للقطن والغزل والنسيج (خطة التطوير، كما نشرتها اليوم السابع)</p>
+</div>
+<script>
+(function(){setTimeout(function(){var a=document.querySelectorAll("[data-w]");for(var i=0;i<a.length;i++){a[i].style.width=a[i].getAttribute("data-w");}var b=document.querySelectorAll("[data-h]");for(var j=0;j<b.length;j++){b[j].style.height=b[j].getAttribute("data-h");}var c=document.querySelectorAll(".pop");for(var k=0;k<c.length;k++){c[k].style.opacity="1";}},180);})();
+(function(){var els=document.querySelectorAll("[data-n]");if(!els.length)return;var fin=[];for(var i=0;i<els.length;i++){fin.push(els[i].innerHTML);}var s=null;function f(ts){if(!s)s=ts;var p=Math.min((ts-s)/900,1),e=1-Math.pow(1-p,3);for(var i=0;i<els.length;i++){var n=parseFloat(els[i].getAttribute("data-n"));var d=parseInt(els[i].getAttribute("data-d")||"0",10);els[i].textContent=(e*n).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});}if(p<1){requestAnimationFrame(f);}else{for(var j=0;j<els.length;j++){els[j].innerHTML=fin[j];}}}setTimeout(function(){requestAnimationFrame(f);},200);})();
+(function(){function notify(){var h=document.getElementById("root").offsetHeight;window.parent.postMessage({type:"chartResize",height:h},"*");}
+setTimeout(notify,1400);window.addEventListener("resize",notify);
+try{new ResizeObserver(function(){setTimeout(notify,80);}).observe(document.body);}catch(e){}})();
+</script></body></html>
